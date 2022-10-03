@@ -1,0 +1,6 @@
+[submodule "Codebases/Hazel"]
+	path = Codebases/Hazel
+	url = https://github.com/TheCherno/Hazel.git
+[submodule "Codebases/turtlebot4"]
+	path = Codebases/turtlebot4
+	url = https://github.com/turtlebot/turtlebot4.git
