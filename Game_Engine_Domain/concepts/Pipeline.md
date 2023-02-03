@@ -1,1 +1,0 @@
-* A graphics pipelne is the concept of an ordered set of shaders.. So basically set of slots which can be filled with shaders
