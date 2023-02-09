@@ -33,12 +33,12 @@ public class MeshResource
 		this.m_refCount = 1;
 	}
 
-	@Override
+/*	@Override
 	protected void finalize()
 	{
 		glDeleteBuffers(m_vbo);
 		glDeleteBuffers(m_ibo);
-	}
+	}*/
 
 	public void AddReference()
 	{

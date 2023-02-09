@@ -63,14 +63,14 @@ public class Mesh
 		AddVertices(vertices, indices, calcNormals);
 	}
 
-	@Override
-	protected void finalize()
-	{
-		if(m_resource.RemoveReference() && !m_fileName.isEmpty())
-		{
-			s_loadedModels.remove(m_fileName);
-		}
-	}
+	//@Override
+	//protected void finalize()
+	//{
+	//	if(m_resource.RemoveReference() && !m_fileName.isEmpty())
+//		{
+//			s_loadedModels.remove(m_fileName);
+//		}
+//	}
 	
 	private void AddVertices(Vertex[] vertices, int[] indices, boolean calcNormals)
 	{

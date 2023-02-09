@@ -71,6 +71,7 @@ public class Shader
 		}
 	}
 
+	/*
 	@Override
 	protected void finalize()
 	{
@@ -78,7 +79,7 @@ public class Shader
 		{
 			s_loadedShaders.remove(m_fileName);
 		}
-	}
+	}*/
 
 	public void Bind()
 	{

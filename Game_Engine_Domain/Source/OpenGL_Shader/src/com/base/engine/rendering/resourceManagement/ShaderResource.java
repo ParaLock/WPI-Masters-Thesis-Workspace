@@ -46,11 +46,13 @@ public class ShaderResource
 		m_uniformTypes = new ArrayList<String>();
 	}
 
+/*
 	@Override
 	protected void finalize()
 	{
 		glDeleteBuffers(m_program);
 	}
+*/
 
 	public void AddReference()
 	{

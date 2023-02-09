@@ -52,14 +52,14 @@ public class Texture
 		}
 	}
 
-	@Override
+/*	@Override
 	protected void finalize()
 	{
 		if(m_resource.RemoveReference() && !m_fileName.isEmpty())
 		{
 			s_loadedTextures.remove(m_fileName);
 		}
-	}
+	}*/
 
 	public void Bind()
 	{

@@ -30,11 +30,11 @@ public class TextureResource
 		this.m_refCount = 1;
 	}
 
-	@Override
+/*	@Override
 	protected void finalize()
 	{
 		glDeleteBuffers(m_id);
-	}
+	}*/
 
 	public void AddReference()
 	{
