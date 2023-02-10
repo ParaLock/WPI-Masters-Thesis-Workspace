@@ -114,7 +114,7 @@ case "$( uname )" in                #(
   NONSTOP* )        nonstop=true ;;
 esac
 
-CLASSPATH=$APP_HOME/lib/Target_Qt.jar:$APP_HOME/lib/qtjambi-6.4.3.jar
+CLASSPATH=$APP_HOME/lib/Target_Qt.jar:$APP_HOME/lib/qtjambi-6.4.3.jar:$APP_HOME/lib/qtjambi-native-linux-x64-6.4.3.jar
 
 
 # Determine the Java command to use to start the JVM.
@@ -201,7 +201,7 @@ fi
 
 set -- \
         -classpath "$CLASSPATH" \
-        window.Window \
+        main.java.window.Application \
         "$@"
 
 # Stop when "xargs" is not available.

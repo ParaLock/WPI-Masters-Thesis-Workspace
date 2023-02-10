@@ -67,11 +67,11 @@ goto fail
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Target_Qt.jar;%APP_HOME%\lib\qtjambi-6.4.3.jar
+set CLASSPATH=%APP_HOME%\lib\Target_Qt.jar;%APP_HOME%\lib\qtjambi-6.4.3.jar;%APP_HOME%\lib\qtjambi-native-linux-x64-6.4.3.jar
 
 
 @rem Execute Target_Qt
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TARGET_QT_OPTS%  -classpath "%CLASSPATH%" window.Window %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TARGET_QT_OPTS%  -classpath "%CLASSPATH%" main.java.window.Application %*
 
 :end
 @rem End local scope for the variables with windows NT shell
