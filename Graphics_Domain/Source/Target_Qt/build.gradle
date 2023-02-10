@@ -1,0 +1,22 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = "window.Window"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'io.qtjambi', name: 'qtjambi', version: '6.4.3'
+    runtimeOnly 'io.qtjambi:qtjambi-native-linux-x64:6.4.3'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src"]
+        }
+    }
+}
