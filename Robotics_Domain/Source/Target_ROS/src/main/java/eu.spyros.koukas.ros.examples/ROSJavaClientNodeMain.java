@@ -86,7 +86,10 @@ public final class ROSJavaClientNodeMain extends AbstractNodeMain {
         //ROS Java service definition interfaces  have a public static String _TYPE field where the ros type is saved.
         //Also ROS Java service definition interfaces have a public static String _DEFINITION filed where the source of the service is saved.
         try {
-            final ServiceClient<AddTwoIntsRequest, AddTwoIntsResponse> serviceClient = connectedNode.newServiceClient(this.rosServiceName, rosjava_test_msgs.AddTwoInts._TYPE);
+            final ServiceClient<AddTwoIntsRequest, AddTwoIntsResponse> serviceClient = connectedNode.newServiceClient(
+                    this.rosServiceName,
+                    rosjava_test_msgs.AddTwoInts._TYPE
+            );
             serviceClient.isConnected();
 
             //Create a response listener for consuming the service server response
