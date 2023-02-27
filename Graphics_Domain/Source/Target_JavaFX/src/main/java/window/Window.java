@@ -3,6 +3,7 @@ package window;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
+import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
@@ -16,10 +17,11 @@ public class Window extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) {
+
         Label label = new Label("Hello World");
         label.setAlignment(Pos.CENTER);
-        Scene scene = new Scene(label, 500, 350);
+        Scene scene = new Scene(label);
 
         primaryStage.setTitle("Hello World Application");
         primaryStage.setScene(scene);
