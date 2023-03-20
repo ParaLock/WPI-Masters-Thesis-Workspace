@@ -5,62 +5,9 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Target_JavaFX" />
-        <option name="gradleJvm" value="corretto-18" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Target_JavaFX" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_LWJGL" />
-        <option name="gradleJvm" value="corretto-18" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Target_LWJGL" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_LibGDX" />
-        <option name="gradleJvm" value="corretto-18" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Target_LibGDX" />
-            <option value="$PROJECT_DIR$/Target_LibGDX/core" />
-            <option value="$PROJECT_DIR$/Target_LibGDX/desktop" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_OpenGL" />
-        <option name="gradleJvm" value="corretto-18" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Target_OpenGL" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_Qt" />
-        <option name="gradleJvm" value="corretto-18" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Target_Qt" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_Vulkan" />
-        <option name="gradleJvm" value="corretto-18" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Target_Vulkan" />
           </set>
         </option>
       </GradleProjectSettings>
