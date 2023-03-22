@@ -1,37 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Game_Engine_Domain/Source/LWJGL_Window" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_JavaFX" />
         <option name="gradleJvm" value="corretto-18" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Game_Engine_Domain/Source/LWJGL_Window" />
+            <option value="$PROJECT_DIR$/Target_JavaFX" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Game_Engine_Domain/Source/LibGDX_Window" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_LWJGL" />
         <option name="gradleJvm" value="corretto-18" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Game_Engine_Domain/Source/LibGDX_Window" />
-            <option value="$PROJECT_DIR$/Game_Engine_Domain/Source/LibGDX_Window/core" />
-            <option value="$PROJECT_DIR$/Game_Engine_Domain/Source/LibGDX_Window/desktop" />
+            <option value="$PROJECT_DIR$/Target_LWJGL" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Game_Engine_Domain/Source/OpenGL_Shader" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_LibGDX" />
         <option name="gradleJvm" value="corretto-18" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Game_Engine_Domain/Source/OpenGL_Shader" />
+            <option value="$PROJECT_DIR$/Target_LibGDX" />
+            <option value="$PROJECT_DIR$/Target_LibGDX/core" />
+            <option value="$PROJECT_DIR$/Target_LibGDX/desktop" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_OpenGL_Mesh" />
+        <option name="gradleJvm" value="corretto-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Target_OpenGL_Mesh" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_OpenGL_Triangle" />
+        <option name="gradleJvm" value="corretto-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Target_OpenGL_Triangle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_Qt" />
+        <option name="gradleJvm" value="corretto-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Target_Qt" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_ROS" />
+        <option name="gradleJvm" value="corretto-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Target_ROS" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_Vulkan_Mesh" />
+        <option name="gradleJvm" value="corretto-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Target_Vulkan_Mesh" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_Vulkan_Triangle" />
+        <option name="gradleJvm" value="corretto-18" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Target_Vulkan_Triangle" />
           </set>
         </option>
       </GradleProjectSettings>
