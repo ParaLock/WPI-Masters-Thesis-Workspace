@@ -12,7 +12,7 @@ repositories {
 	mavenCentral()
 }
 
-project.ext.lwjglVersion = "3.1.2"
+project.ext.lwjglVersion = "3.3.1"
 project.ext.jomlVersion = "1.9.4"
 project.ext.lwjglNatives = "natives-linux"
 

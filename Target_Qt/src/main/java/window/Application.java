@@ -52,9 +52,23 @@ public class Application extends QMainWindow {
 
     public Application()
     {
-        QLabel label = new QLabel();
-        label.setText("Hello, World!");
-        setCentralWidget(label);
+//        QLabel label = new QLabel();
+//        label.setText("Hello, World!");
+//        setCentralWidget(label);
+
+        QWidget window = new QWidget();
+        window.setWindowTitle("3x3 Grid of Labels");
+        QGridLayout gridLayout = new QGridLayout(window);
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                QLabel label = new QLabel("Label " + (i * 3 + j + 1));
+                label.setAlignment(Qt.AlignmentFlag.AlignCenter);
+                gridLayout.addWidget(label, i, j);
+            }
+        }
+        window.show();
+
     }
 
     @Override
@@ -67,7 +81,6 @@ public class Application extends QMainWindow {
         QApplication.initialize(args);
 
         Application application = new Application();
-        application.show();
 
         QApplication.exec();
     }

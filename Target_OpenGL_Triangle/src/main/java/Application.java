@@ -98,7 +98,7 @@ public class Application {
 
         shaderProgram = new ShaderProgram();
         shaderProgram.attachVertexShader("res/vertex_shader.vs");
-        shaderProgram.attachFragmentShader("res/pixel_shader.fs");
+        shaderProgram.attachFragmentShader("res/frag_shader.fs");
         shaderProgram.link();
 
         // Generate and bind a Vertex Array
@@ -146,21 +146,21 @@ public class Application {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); // clear the framebuffer
 
         // Use our program
-//        shaderProgram.bind();
-//
-//        // Bind the vertex array and enable our location
-//        glBindVertexArray(vaoID);
-//        glEnableVertexAttribArray(0);
-//
-//        // Draw a triangle of 3 vertices
-//        glDrawArrays(GL_TRIANGLES, 0, 3);
-//
-//        // Disable our location
-//        glDisableVertexAttribArray(0);
-//        glBindVertexArray(0);
-//
-//        // Un-bind our program
-//        ShaderProgram.unbind();
+        shaderProgram.bind();
+
+        // Bind the vertex array and enable our location
+        glBindVertexArray(vaoID);
+        glEnableVertexAttribArray(0);
+
+        // Draw a triangle of 3 vertices
+        glDrawArrays(GL_TRIANGLES, 0, 3);
+
+        // Disable our location
+        glDisableVertexAttribArray(0);
+        glBindVertexArray(0);
+
+        // Un-bind our program
+        ShaderProgram.unbind();
     }
 
     private void loop() {

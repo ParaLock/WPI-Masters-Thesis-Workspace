@@ -34,7 +34,7 @@ import static org.lwjgl.vulkan.KHRSurface.*;
 import static org.lwjgl.vulkan.KHRSwapchain.*;
 import static org.lwjgl.vulkan.VK10.*;
 
-public class Ch22DescriptorSets {
+public class TriangleMain {
 
     private static class ApplicationMain {
 
@@ -46,7 +46,7 @@ public class Ch22DescriptorSets {
 
         private static final int MAX_FRAMES_IN_FLIGHT = 2;
 
-        private static final boolean ENABLE_VALIDATION_LAYERS = DEBUG.get(true);
+        private static final boolean ENABLE_VALIDATION_LAYERS = false;
 
         private static final Set<String> VALIDATION_LAYERS;
         static {
@@ -117,6 +117,8 @@ public class Ch22DescriptorSets {
             private IntBuffer presentModes;
 
         }
+
+        //SmallBuffer1
 
         private static class UniformBufferObject {
 
@@ -751,8 +753,8 @@ public class Ch22DescriptorSets {
 
                 // Let's compile the GLSL shaders into SPIR-V at runtime using the shaderc library
                 // Check ShaderSPIRVUtils class to see how it can be done
-                SPIRV vertShaderSPIRV = compileShaderFile("shaders/21_shader_ubo.vert", VERTEX_SHADER);
-                SPIRV fragShaderSPIRV = compileShaderFile("shaders/21_shader_ubo.frag", FRAGMENT_SHADER);
+                SPIRV vertShaderSPIRV = compileShaderFile("shaders/shader_code.vert", VERTEX_SHADER);
+                SPIRV fragShaderSPIRV = compileShaderFile("shaders/shader_code.frag", FRAGMENT_SHADER);
 
                 long vertShaderModule = createShaderModule(vertShaderSPIRV.bytecode());
                 long fragShaderModule = createShaderModule(fragShaderSPIRV.bytecode());

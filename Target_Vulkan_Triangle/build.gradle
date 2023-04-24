@@ -6,13 +6,13 @@ plugins {
 group 'src.main.java.javavulkantutorial'
 version '1.0-SNAPSHOT'
 
-mainClassName = "main.renderer.ApplicationMain"
+mainClassName = "main.renderer.TriangleMain"
 
 repositories {
     mavenCentral()
 }
 
-project.ext.lwjglVersion = "3.2.3"
+project.ext.lwjglVersion = "3.3.1"
 project.ext.jomlVersion = "1.9.20"
 project.ext.lwjglNatives = "natives-linux"
 
