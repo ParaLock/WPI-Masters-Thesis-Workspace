@@ -1,9 +1,8 @@
 
-package window;
+package javafx_basic_application;
 
 import javafx.application.Application;
 import javafx.geometry.Pos;
-import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.ColumnConstraints;
@@ -11,7 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 import javafx.stage.Stage;
 
-public class Window extends Application {
+public class JavaFXApplication extends Application {
 
     @Override
     public void init() throws Exception {

@@ -331,6 +331,8 @@ public class TriangleMain {
 
         private void cleanup() {
 
+            //COGEN<Cleanup>
+
             cleanupSwapChain();
 
             vkDestroyDescriptorSetLayout(device, descriptorSetLayout, null);

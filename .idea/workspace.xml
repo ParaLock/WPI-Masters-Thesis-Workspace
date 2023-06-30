@@ -5,17 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deb2487-040b-4455-b66a-ec02117bcee4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaClientNodeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaClientNodeLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaPublisherNodeLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaSubscriberNodeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/logic/ClientOnLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/logic/ClientOnResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/logic/PublisherOnLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/logic/ServerOnRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/logic/SubscriberOnMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/msgs/StringMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/msgs/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/msgs/SumRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/msgs/SumResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Target_JavaFX/src/main/java/window/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_JavaFX/src/main/java/window/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_LWJGL/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Target_LWJGL/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Target_LibGDX/core/src/com/mygdx/game/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_LibGDX/core/src/com/mygdx/game/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_OpenGL_Mesh/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Target_OpenGL_Mesh/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_OpenGL_Triangle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Target_OpenGL_Triangle/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_OpenGL_Triangle/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_OpenGL_Triangle/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Target_Qt/src/main/java/window/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Qt/src/main/java/window/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/ApplicationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/TriangleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hs_err_pid1458625.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_ROS/src/main/java/eu.spyros.koukas.ros.examples/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_ROS/src/main/java/eu.spyros.koukas.ros.examples/MainExternal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_ROS/src/main/java/eu.spyros.koukas.ros.examples/ROSJavaClientNodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaClientNodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_ROS/src/main/java/eu.spyros.koukas.ros.examples/ROSJavaPublisherNodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaPublisherNodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_ROS/src/main/java/eu.spyros.koukas.ros.examples/ROSJavaServerNodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaServerNodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_ROS/src/main/java/eu.spyros.koukas.ros.examples/ROSJavaSubscriberNodeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_ROS/src/main/java/basic_ros_application/ROSJavaSubscriberNodeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/TriangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/TriangleMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,58 +101,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Target_LibGDX" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_LibGDX" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_LibGDX" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_LibGDX" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_LibGDX" type="f1a62948:ProjectNode" />
-                <item name="core" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_Qt" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_Qt" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_Qt" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_ROS" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_ROS" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Target_ROS" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -174,13 +135,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.Target_LibGDX [run]">
-    <configuration name="Window" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="window.Window" />
-      <module name="Target_JavaFX.main" />
+  <component name="RunManager" selected="Application.basic_ros_application.Main">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.window.Application" />
+      <module name="Target_Qt.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="window.*" />
+          <option name="PATTERN" value="main.java.window.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,101 +149,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Target_JavaFX [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_JavaFX" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
+    <configuration name="DesktopLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mygdx.game.DesktopLauncher" />
+      <module name="Target_LibGDX.desktop.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mygdx.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Target_LibGDX [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_LibGDX" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eu.spyros.koukas.ros.examples.Main" />
+      <module name="Target_ROS.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eu.spyros.koukas.ros.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Target_LibGDX:desktop [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_LibGDX/desktop" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
+    <configuration name="TriangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.renderer.TriangleMain" />
+      <module name="Target_Vulkan_Triangle.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.renderer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Target_Qt [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Target_Qt" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="run" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
+    <configuration name="basic_ros_application.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_ros_application.Main" />
+      <module name="Target_ROS.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic_ros_application.msgs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Target_LibGDX [run]" />
-        <item itemvalue="Gradle.Target_Qt [run]" />
-        <item itemvalue="Gradle.Target_JavaFX [run]" />
-        <item itemvalue="Application.Window" />
-        <item itemvalue="Gradle.Target_LibGDX:desktop [run]" />
+        <item itemvalue="Application.TriangleMain" />
+        <item itemvalue="Application.basic_ros_application.Main" />
+        <item itemvalue="Application.DesktopLauncher" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -298,14 +223,10 @@
     <servers />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/TriangleMain.java</url>
-          <line>406</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.ros.internal.message.MessageImpl" memberName="messageContext" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

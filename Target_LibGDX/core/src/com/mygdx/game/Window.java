@@ -4,11 +4,9 @@ import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.utils.ScreenUtils;
-import static com.badlogic.gdx.Gdx.files;
 
 public class Window extends ApplicationAdapter {
 	SpriteBatch batch;
@@ -20,7 +18,6 @@ public class Window extends ApplicationAdapter {
 		batch = new SpriteBatch();
 		font = new BitmapFont();
 		camera = new OrthographicCamera();
-
 	}
 
 	@Override
@@ -42,15 +39,14 @@ public class Window extends ApplicationAdapter {
 
 		int numRows = 3;
 		int numColumns = 3;
-		float yPadding = Gdx.graphics.getHeight() / (float) (numRows + 1);
-		float xPadding = Gdx.graphics.getWidth() / (float) (numColumns + 1);
+		Float yPadding = Gdx.graphics.getHeight() / (numRows + 1.0f);
+		Float xPadding = Gdx.graphics.getWidth() / (numColumns + 1.0f);
 
-		// Calculate the starting position
-		float startX = xPadding;
-		float startY = Gdx.graphics.getHeight() - yPadding;
+		Float startX = xPadding;
+		Float startY = Gdx.graphics.getHeight() - yPadding;
 
-		float currY = startY;
-		float currX = startX;
+		Float currY = startY;
+		Float currX = startX;
 
 		for (int i = 0; i < numRows; i++) {
 			for (int j = 0; j < numColumns; j++) {
