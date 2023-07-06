@@ -277,8 +277,6 @@ public class TriangleMain {
         }
 
         private void framebufferResizeCallback(long window, int width, int height) {
-            // HelloTriangleApplication app = MemoryUtil.memGlobalRefToObject(glfwGetWindowUserPointer(window));
-            // app.framebufferResize = true;
             framebufferResize = true;
         }
 
