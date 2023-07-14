@@ -400,10 +400,6 @@ public class TriangleMain {
 
         private void createInstance() {
 
-            if(ENABLE_VALIDATION_LAYERS && !checkValidationLayerSupport()) {
-                throw new RuntimeException("Validation requested but not supported");
-            }
-
             try(MemoryStack stack = stackPush()) {
 
                 // Use calloc to initialize the structs with 0s. Otherwise, the program can crash due to random values
@@ -1620,40 +1616,8 @@ public class TriangleMain {
 
             PointerBuffer glfwExtensions = glfwGetRequiredInstanceExtensions();
 
-            if(ENABLE_VALIDATION_LAYERS) {
-
-                PointerBuffer extensions = stack.mallocPointer(glfwExtensions.capacity() + 1);
-
-                extensions.put(glfwExtensions);
-                extensions.put(stack.UTF8(VK_EXT_DEBUG_UTILS_EXTENSION_NAME));
-
-                // Rewind the buffer before returning it to reset its position back to 0
-                return extensions.rewind();
-            }
-
             return glfwExtensions;
         }
-
-        private boolean checkValidationLayerSupport() {
-
-            try(MemoryStack stack = stackPush()) {
-
-                IntBuffer layerCount = stack.ints(0);
-
-                vkEnumerateInstanceLayerProperties(layerCount, null);
-
-                VkLayerProperties.Buffer availableLayers = VkLayerProperties.malloc(layerCount.get(0), stack);
-
-                vkEnumerateInstanceLayerProperties(layerCount, availableLayers);
-
-                Set<String> availableLayerNames = availableLayers.stream()
-                        .map(VkLayerProperties::layerNameString)
-                        .collect(toSet());
-
-                return availableLayerNames.containsAll(VALIDATION_LAYERS);
-            }
-        }
-
     }
 
     public static void main(String[] args) {
