@@ -1,4 +1,4 @@
 package main.renderer.synthesized;
 
-public class CommandList {
+public class Handle {
 }

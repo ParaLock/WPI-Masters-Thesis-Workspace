@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8deb2487-040b-4455-b66a-ec02117bcee4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/AdhocBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/BulkBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/CommandList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Mesh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Renderable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/TriangleMainWithSynthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Handle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/buffers/LightInfoBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/buffers/TransformBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/TriangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/TriangleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/AdhocBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/BulkBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/CommandList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Mesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Renderable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/Renderable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/TriangleMainWithSynthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Target_Vulkan_Triangle/src/main/renderer/synthesized/TriangleMainWithSynthesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.window.Application" />
       <module name="Target_Qt.main" />
