@@ -80,6 +80,7 @@ public class TriangleMainWithSynthesis {
 
     //@COGEN<Commands> ******************************************************************
     private Handle createCommandList(Catalog catalog) {return new Handle();}
+    private void submitCommandList(Catalog catalog, Handle cmdList) {}
     private void enqueueSetPipeline(Catalog catalog, Handle cmdListId, Handle pipelineId) {}
     private void enqueueSetBuffer(Catalog catalog, Handle cmdListId, Handle bufferId) {}
     private void enqueueDraw(Catalog catalog, Handle cmdListId) {}
@@ -175,6 +176,8 @@ public class TriangleMainWithSynthesis {
         enqueueSetBuffer(catalog, cmdListId, lightInfoBuffer);
         enqueueSetPipeline(catalog, cmdListId, lightPipeline);
         enqueueDraw(catalog, cmdListId);
+
+        submitCommandList(catalog, cmdListId);
 
         endFrame(catalog);
     }
